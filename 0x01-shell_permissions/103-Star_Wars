@@ -1,0 +1,6 @@
+#!/bin/bash
+while IFS= read -r line
+do
+    echo "$line"
+    sleep 0.5
+done < "starwars_iv_script.txt"
